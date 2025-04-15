@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+			crossorigin="anonymous" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="generic.css" />
+		<title>BarberShop</title>
+		<!-- Mon CSS fichier externe que j'appel -->
+
+		<!-- CDN appeler un lien (librairie) externe -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+	</head>
+
+	<body class="m-0 min-vh-100 d-flex flex-column">
+		<header class="main-header">
+			<div class="top-bar">
+				<div class="w-90 d-flex justify-content-between align-center">
+					<div class="logo">
+						<img src="img/logo-barber.png" alt="Logo Barbershop"/>
+					</div>
+					<div class="search-box align-content-center">
+						<input type="text" class="p-2 rounded-3" placeholder="Rechercher..." />
+						<i class="fas fa-search logo-search"></i>
+					</div>
+				</div>
+			</div>
+
+			<div class="navbar__box-shadow__sticky">
+				<nav class="navbar navbar-expand-lg bg-body-tertiary m-auto w-100 m-0 d-flex justify-content-center">
+					<div class="container-fluid w-90 p-0 m-0 flex-row-reverse">
+						<a class="navbar-brand p-0 m-0" href="#"
+							><img src="/img/unnamed.jpg" alt="Moustache" class="moustache"
+						/></a>
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#navbarNav"
+							aria-controls="navbarNav"
+							aria-expanded="false"
+							aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNav">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#"
+										>Accueil</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Produits</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Tarifs</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+
+			<div class="hero-section d-flex justify-center align-center position-relative">
+				<img src="./bandeau.jpg-min.jpg" alt="soloon banner" class="w-100" />
+				<a
+				href="#formulaire"
+				class="btn hero-btn position-absolute top-50 start-50 fs-4 translate-middle btn-primary-color text-white fw-semibold shadowButton py-4 px-5"
+				>PRENDRE RENDEZ-VOUS</a
+				>
+			</div>
+		</header>
+		<section class="w-90 presentation mb-4 p-0">
+			<h2 id="titre" class="mt-5 mb-3">Présentation</h2>
+			<p>
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis
+				recusandae, ducimus nulla hic facere amet quae optio! Porro suscipit
+				aperiam laborum est eos aliquam dolore facilis veritatis sapiente
+				maiores! Nesciunt similique alias totam esse sapiente dolores, in,
+				molestias magni quod amet vero? Autem aliquid cumque, voluptates ea
+				itaque, necessitatibus quod dignissimos nemo ad distinctio at! Error
+				illum reprehenderit eius iure a distinctio maiores doloremque ab labore
+				iste, iusto provident dicta quos ad officia, architecto repellendus ut
+				voluptas porro eveniet aliquam!
+			</p>
+			<p class="my-5">
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro suscipit
+				aperiam laborum est eos aliquam dolore facilis veritatis sapiente
+				maiores! Nesciunt similique alias totam esse sapiente dolores, in,
+				molestias magni quod amet vero? Autem aliquid cumque, voluptates ea
+				itaque, necessitatibus quod dignissimos nemo ad distinctio at! Error
+				illum reprehenderit eius iure a distinctio maiores doloremque ab labore
+				iste, iusto provident dicta quos ad officia, architecto repellendus ut
+				voluptas porro eveniet aliquam!
+			</p>
+		</section>
+
+		<section class="w-90 services p-0 mb-5">
+			<h2 id="titre" class="mb-3">Nos services</h2>
+			<div class="service-cards d-flex justify-content-between gap-4 flex-shrink-1 mb-5 flex-wrap flex-sm-nowrap">
+				<div class="card rounded-3">
+					<img
+						src="img/Barbier_2-min.jpg"
+						class="rounded-top-3"
+						alt="Rasage à l'ancienne" />
+					<p class="p-3 text-center fs-4 flex-grow-1">
+						Un vrai rasage à l’ancienne avec des produits et accessoires
+						naturels.
+					</p>
+					<a
+						href="#"
+						class="btn tarif-btn m-3 btn-primary-color text-white bg-btn-primary-color fs-4"
+						>TARIF</a
+					>
+				</div>
+				<div class="card rounded-3">
+					<img
+						src="img/Barbier_2-min.jpg"
+						alt="Rasage à l'ancienne"
+						class="rounded-top-3" />
+					<p class="p-3 text-center fs-4 flex-grow-1">
+						Une taille de barbe réalisée aux ciseaux avec du matériel de haute
+						qualité.
+					</p>
+					<a
+						href="#"
+						class="btn tarif-btn m-3 btn-primary-color text-white fs-4"
+						>TARIF</a
+					>
+				</div>
+				<div class="card rounded-3">
+					<img
+						src="img/Barbier_2-min.jpg"
+						alt="Rasage à l'ancienne"
+						class="rounded-top-3" />
+					<p class="p-3 text-center fs-4 flex-grow-1">
+						Entretien de la barbe pour un look impeccable en toute circonstance.
+					</p>
+					<a
+						href="#"
+						class="btn tarif-btn m-3 btn-primary-color text-white fs-4"
+						>TARIF</a
+					>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer bg-beige w-100 p-0">
+			<div class="w-90 text-center p-0">
+				<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 gy-sm-5 gy-5">
+					<div class="col">
+						<img src="img/logo-barber.png" alt="Logo Barbershop" class="img-fluid" class="logo-footer" />
+						</div>
+						<div class="col align-content-center">
+							<ul class="list-unstyled">
+							  <li><a href="#accueil" class="text-decoration-none">Accueil</a></li>
+							  <li><a href="#produits" class="text-decoration-none">Produits</a></li>
+							  <li><a href="#tarifs" class="text-decoration-none">Tarif</a></li>
+							  <li><a href="#contact" class="text-decoration-none">Contact</a></li>
+							</ul>
+						</div>
+						<div class="col align-content-center">
+							<ul class="list-unstyled">
+								<li><a href="#" class="text-decoration-none">Données personnelles et cookies</a></li>
+								<li><a href="#" class="text-decoration-none">Mentions légales</a></li>
+								<li><a href="#" class="text-decoration-none">Conditions générales</a></li>
+							</ul>
+						</div>
+						<div class="col d-flex flex-column justify-content-center align-items-center">
+							<p class="fw-bold mb-2">Suivez-nous</p>
+							<div class="d-flex gap-3">
+							  <a href="#"><i class="fab fa-instagram fs-4"></i></a>
+							  <a href="#"><i class="fab fa-twitter fs-4"></i></a>
+							  <a href="#"><i class="fab fa-facebook fs-4"></i></a>
+							</div>
+						</div>
+				</div>
+			</div>
+		
+			  <div class="footer-bottom text-center mt-3 mb-0">
+				<p>Copyright 2024 | Tous droits réservés</p>
+			  </div>
+			
+		  </footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+			crossorigin="anonymous">
+		</script>
+	</body>
+</html>

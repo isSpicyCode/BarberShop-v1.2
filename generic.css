@@ -1,0 +1,28 @@
+:root {
+    --main-bg-color: #d3cbcb;
+    --secondary-bg-color: #246a76;
+    --border-color: #bc9018;
+    --font-size-base: 16px;
+    --font-size-heading: 26px;
+  }
+
+  html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+  
+.bg-beige {
+    background-color: var(--main-bg-color);
+  }
+
+  .w-90{
+    width: 90%;
+    margin: auto;
+  }
+
+.logo img {
+  width: 8rem;
+}
+
